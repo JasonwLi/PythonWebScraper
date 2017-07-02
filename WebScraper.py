@@ -1,3 +1,5 @@
+## Takes multiple tables from different pages and parses it into a JSON file
+
 import urllib2
 import json
 from collections import OrderedDict
@@ -36,5 +38,5 @@ for i in range(1,11):
 ## output json file
 with open('solution.json', 'w') as sol:
     json.dump(j, sol)
-print j
+
 
