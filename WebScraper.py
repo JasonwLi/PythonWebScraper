@@ -10,7 +10,7 @@ j = {}
 j['Companies'] = []
 ## 10 pages
 for i in range(1,11):
-    link ="http://data-interview.enigmalabs.org/companies/?page=" + str(i)
+    link ="" + str(i)
     ## opening page
     try:
         page = urllib2.urlopen(link)
